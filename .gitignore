@@ -1,0 +1,11 @@
+# Parcel
+.cache
+dist
+
+# Node
+node_modules
+package-lock.json
+yarn-error.log
+
+# System
+.DS_Store

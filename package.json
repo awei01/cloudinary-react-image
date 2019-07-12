@@ -1,0 +1,34 @@
+{
+  "name": "cloudinary-react-image",
+  "version": "1.0.0",
+  "description": "Responsive cloudinary image rendering using React and React hooks",
+  "main": "index.js",
+  "scripts": {
+    "test-dev": "jest --watchAll",
+    "test": "npm run lint && jest",
+    "lint": "eslint ./src",
+    "demo": "DEBUG=cloudinary-react-image parcel ./demo/index.html"
+  },
+  "keywords": ["react", "cloudinary", "responsive", "image"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "debug": "^4.1.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.2",
+    "eslint": "^6.0.1",
+    "eslint-config-standard": "^13.0.1",
+    "eslint-config-standard-react": "^8.0.0",
+    "eslint-loader": "^2.2.1",
+    "eslint-plugin-import": "^2.18.0",
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.14.2",
+    "eslint-plugin-standard": "^4.0.0",
+    "jest": "^24.8.0",
+    "parcel": "^1.12.3"
+  }
+}
